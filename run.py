@@ -2,7 +2,7 @@ from app.courier import Courier
 from app.shop import Shop
 from app.store import Store
 from app.request import Request
-from exceptions import InvalidRequest, BaseError, InvalidStoreName, NotEnoughSpace, NotEnoughProduct
+from exceptions import InvalidRequest, BaseError, InvalidStoreName, NotEnoughProduct
 
 store = Store(items={
     "печеньки": 25,
